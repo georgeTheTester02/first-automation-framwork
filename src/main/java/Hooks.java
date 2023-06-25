@@ -32,7 +32,11 @@ public class Hooks {
 
         driver.manage().window().maximize();
 
+
         System.out.println("Modification of this line 35");
+
+        System.out.println("Another string");
+
 
         driver.get("https://demoqa.com/");
     }
