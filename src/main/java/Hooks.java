@@ -32,6 +32,8 @@ public class Hooks {
 
         driver.manage().window().maximize();
 
+        System.out.println("Another string");
+
         driver.get("https://demoqa.com/");
     }
 
